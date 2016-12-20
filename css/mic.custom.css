@@ -1,0 +1,80 @@
+.ih-item.circle.effect1 .selected:hover .spinner {
+/*transform: rotate(270deg);*/
+}
+
+.ih-item.circle.effect1 .selected:hover .info {
+opacity: 1;
+}
+
+.ih-item .selected:hover {
+text-decoration: none;
+}
+
+.ih-item.circle.effect1 .selected .spinner {
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+border-color: rgb(68, 68, 68) rgb(68, 68, 68) rgb(68, 68, 68) rgb(68, 68, 68) ;
+border-image: none;
+border-radius: 50%;
+border-style: solid;
+border-width: 10px;
+height: 180px;
+transition: all 0.8s ease-in-out 0s;
+width: 180px;
+}
+
+.ih-item.circle.effect1 .selected  .info {
+opacity: 1;
+}
+
+.logout-btn {
+	margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'aqua_grotesqueregular', serif;
+    color: #ffffff;
+}
+
+textarea { resize: vertical; }
+
+.img-crop {
+    height: 360px;
+    width: 100%;
+    object-fit: cover; // here
+    -o-object-fit: cover;
+}
+
+.img-crop-guide {
+    height: 120px;
+    width: 100%;
+    object-fit: cover; // here
+    -o-object-fit: cover;
+}
+
+.btn-primary.btn-lg.slect-button {
+  font-size: 40px !important;
+  font-weight: bold;
+}
+
+.guide-submit-btn {
+    margin-bottom: 5px;
+}
+
+.interest {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.about-me {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.submission-btn {
+    height: 55px;
+    line-height: 10px;
+    margin-top: 10px;
+    width: 150px;
+}
