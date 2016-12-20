@@ -1,56 +1,54 @@
-.ih-item.circle.effect1 .selected:hover .spinner {
-/*transform: rotate(270deg);*/
-}
-
 .ih-item.circle.effect1 .selected:hover .info {
-opacity: 1;
+  opacity: 1;
 }
 
 .ih-item .selected:hover {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .ih-item.circle.effect1 .selected .spinner {
--moz-border-bottom-colors: none;
--moz-border-left-colors: none;
--moz-border-right-colors: none;
--moz-border-top-colors: none;
-border-color: rgb(68, 68, 68) rgb(68, 68, 68) rgb(68, 68, 68) rgb(68, 68, 68) ;
-border-image: none;
-border-radius: 50%;
-border-style: solid;
-border-width: 10px;
-height: 180px;
-transition: all 0.8s ease-in-out 0s;
-width: 180px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: rgb(68, 68, 68) rgb(68, 68, 68) rgb(68, 68, 68) rgb(68, 68, 68) ;
+  border-image: none;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 10px;
+  height: 180px;
+  transition: all 0.8s ease-in-out 0s;
+  width: 180px;
 }
 
 .ih-item.circle.effect1 .selected  .info {
-opacity: 1;
+  opacity: 1;
 }
 
 .logout-btn {
 	margin: 0;
-    padding: 0;
-    font-size: 12px;
-    font-family: 'aqua_grotesqueregular', serif;
-    color: #ffffff;
+  padding: 0;
+  font-size: 12px;
+  font-family: 'aqua_grotesqueregular', serif;
+  color: #ffffff;
 }
 
-textarea { resize: vertical; }
+textarea { 
+  resize: vertical; 
+}
 
 .img-crop {
-    height: 360px;
-    width: 100%;
-    object-fit: cover; // here
-    -o-object-fit: cover;
+  height: 360px;
+  width: 100%;
+  object-fit: cover; // here
+  -o-object-fit: cover;
 }
 
 .img-crop-guide {
-    height: 120px;
-    width: 100%;
-    object-fit: cover; // here
-    -o-object-fit: cover;
+  height: 120px;
+  width: 100%;
+  object-fit: cover; // here
+  -o-object-fit: cover;
 }
 
 .btn-primary.btn-lg.slect-button {
@@ -59,35 +57,31 @@ textarea { resize: vertical; }
 }
 
 .guide-submit-btn {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .interest {
-    font-size: 20px;
-    margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .about-me {
-    font-size: 20px;
-    margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .submission-btn {
-    height: 55px;
-    line-height: 10px;
-    margin-top: 10px;
-    width: 150px;
+  height: 55px;
+  line-height: 10px;
+  margin-top: 10px;
+  width: 150px;
 }
 
 .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform 0.3s ease-out;
-     -moz-transition: -moz-transform 0.3s ease-out;
-       -o-transition: -o-transform 0.3s ease-out;
-          transition: transform 0.3s ease-out;
-}
-
-.modal.in .modal-dialog {
-
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
 }
 
 .modal-dialog{
@@ -105,29 +99,18 @@ textarea { resize: vertical; }
 }
 
 .homeform {
-    padding: 100px 0 40px;
+  padding: 100px 0 40px;
 }
 
 .home-form .tab-pane {
-    margin: 0px 300px 0px 300px;
-    padding: 48px 34px 18px 34px;
+  margin: 0px 300px 0px 300px;
+  padding: 48px 34px 18px 34px;
 }
 
 .get-started {
   font-size: 25px;
   padding-top: 18px;
 }
-/*
-.icon-container {
-  margin: 40px 0px;
-  padding: 0px 0px;
-}
-
-.row > h5 {
-  font-size: 20px;
-  padding-top: 40px;
-  padding-left: 130px;
-}*/
 
 .vcenter {
     display: inline-block;
@@ -164,16 +147,14 @@ textarea { resize: vertical; }
 h3 {
   font-family: verdana;
   color: black;
-  /*font-size: 22px;*/
   font-weight: normal;
   font-family: verdana;
   text-transform: none;
 }
 
 strong {
-    color: #000;
+  color: #000;
 }
-
 
 /*Responsive CSS*/
 
@@ -190,7 +171,9 @@ body {
   line-height: 1.6em;
 }
 
-ul, li { list-style: none; }
+ul, li {
+  list-style: none;
+}
 
 #container {
   width: 60%;
@@ -211,7 +194,9 @@ h1 {
   padding-top: 13px;
 }
 
-.faq li { padding: 20px; }
+.faq li {
+  padding: 20px;
+}
 
 .faq li.q {
   background: #4FC2E;
@@ -233,121 +218,132 @@ h1 {
   transform: rotate(90deg);
 }
 @media (max-width:800px) {
-
-#container { width: 90%; }
+  #container {
+    width: 90%;
+  }
 }
 
 /* media query */
-@media screen and (max-width: 990px)
-{
-.col-md-2 {
+@media screen and (max-width: 990px) {
+  .col-md-2 {
     width: 20.667%;
-}
-.travel-title {
-  font-size: 50px;
-}
-.home-form .tab-pane
-{
-margin: 0 170px;
-}
-.col-xs-3 {
+  }
+
+  .travel-title {
+    font-size: 50px;
+  }
+
+  .home-form .tab-pane {
+    margin: 0 170px;
+  }
+
+  .col-xs-3 {
     width: 100%;
-}
-.col-sm-6 {
+  }
+
+  .col-sm-6 {
     width: 100%;
-}
-.col-sm-2 {
+  }
+
+  .col-sm-2 {
     width: 24.667%;
-}
-.col-sm-10 {
+  }
+
+  .col-sm-10 {
     width: 74.333%;
-}
-.post-media > a > img {
+  }
+
+  .post-media > a > img {
     margin: 0 auto;
     width: 50%;
-}
-.img-responsive.respons-img {
+  }
+
+  .img-responsive.respons-img {
     width: 30%;
-}
-}
-
-@media screen and (max-width: 990px)
-{
-.home-message h1{
-font-size: 35px;
-}
-.home-form .tab-pane
-{
-margin: 0 72px;
+  }
 }
 
-.col-sm-10 {
+@media screen and (max-width: 990px) {
+  .home-message h1 {
+    font-size: 35px;
+  }
+
+  .home-form .tab-pane {
+    margin: 0 72px;
+  }
+
+  .col-sm-10 {
     width: 100%;
-}
-.col-sm-2 {
+  }
+
+  .col-sm-2 {
     width: 100%;
-}
-.hotel-title
-{
-text-align:center;
-}
-.hotel-title .left
-{
-margin:0 auto;
-}
-.vcenter
-{
-text-align:center;
-}
-.get-started {
+  }
+
+  .hotel-title {
+    text-align:center;
+  }
+
+  .hotel-title .left {
+    margin:0 auto;
+  }
+
+  .vcenter {
+    text-align:center;
+  }
+
+  .get-started {
     font-size: 19px;
-}
-}
-@media screen and (max-width: 1100px)and (min-width: 1000px)
-{
-  .footer .form-control {
-      width: 237px;
-  }
-  .col-md-5 {
-      width: 39.667%;
   }
 }
 
-@media screen and (max-width: 500px)
-{
-.home-form .tab-pane
-{
-margin: 0 19px;
+@media screen and (max-width: 1100px)and (min-width: 1000px) {
+  .footer .form-control {
+    width: 237px;
+  }
+
+  .col-md-5 {
+    width: 39.667%;
+  }
 }
-.home-contact h5 {
+
+@media screen and (max-width: 500px) {
+  .home-form .tab-pane {
+    margin: 0 19px;
+  }
+
+  .home-contact h5 {
     font-size: 17px;
-}
-.form-control {
+  }
+
+  .form-control {
     height: 39px;
-}
-.home-contact
-{
-padding:30px;
-}
-.home-contact > p {
+  }
+
+  .home-contact {
+    padding:30px;
+  }
+
+  .home-contact > p {
     font-size: 10px;
     font-weight: bold;
-}
-.header {
+  }
+
+  .header {
     padding: 0;
   }
-.navbar-collapse, .navbar
-{
-margin:0;
-} 
-.topbar-social i
-{
-font-size:30px;
-}
 
-.navbar-brand-logo {
-  display: none;
-}
+  .navbar-collapse, .navbar {
+    margin:0;
+  }
+
+  .topbar-social i {
+    font-size:30px;
+  }
+
+  .navbar-brand-logo {
+    display: none;
+  }
 }
 
 .clearfix.navbar-brand-logo {
@@ -370,21 +366,20 @@ font-size:30px;
 }
 
 .ih-item.circle.effect1 a .info {
-opacity: 1;
+  opacity: 1;
 }
 
 .ih-item.circle.effect1 a .info {
-background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 }
 
 .ih-item.circle.effect1 a:hover .info {
-background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
 }
 
 .ih-item.circle.effect1 .selected .info {
-background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
 }
-
 
 .info-back h3 strong {
   color: #fff;
@@ -392,10 +387,10 @@ background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
 }
 
 .dropdown-menu {
-    background-color: #ffffff !important;
-    border: 1px solid #666;
-    border-top: 0;
-    border-bottom: 0;
+  background-color: #ffffff !important;
+  border: 1px solid #666;
+  border-top: 0;
+  border-bottom: 0;
 }
 
 .bootstrap-select.btn-group .dropdown-menu li a span.text {
@@ -447,11 +442,13 @@ background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
 .section.clearfix.section-bottom .row:nth-child(4) {
   background: #FFC926;
 }
+
 .section.clearfix.section-bottom .row:nth-child(4) .hit-title {
   color: #525252;
   font-family: "aqua_grotesqueregular",serif;
   text-transform: uppercase;
 }
+
 .section.clearfix.section-bottom .row:nth-child(4) .hit-text {
   text-align: center !important;
   font-family: "aqua_grotesqueregular",serif !important;
@@ -459,6 +456,7 @@ background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
   color:#525252;
   font-size:18px;
 }
+
 .section.clearfix.section-bottom .row:nth-child(4) .hit-text a{
   color:#fff;
 }
